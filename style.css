@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  font-family: "Oswald";
+}
+header h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+header nav {
+  width: 50%;
+  height: 15vh;
+}
+header ul {
+  height: 15vh;
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  align-items: center;
+}
+header li {
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+header a {
+  text-decoration: none;
+  color: #5b5b5b;
+}
+header a:hover {
+  color: #000000;
+  font-size: 1.5rem;
+  border: solid;
+  font-weight: 900;
+}
+
+.container_background_image {
+  height: 80vh;
+  border: 0.063em solid transparent;
+  background-image: url("./imagens/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container_background_image h1 {
+  color: #ffffff;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 6rem;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 30% vh;
+  margin-left: 7.938rem;
+}
+.container_background_image p {
+  color: #ffffff;
+  font-family: "Oswald";
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 10vh;
+  margin-left: 7.938rem;
+}
+.container_background_image button {
+  background-color: #0016DF;
+  color: #ffffff;
+  font-family: "Oswald";
+  font-weight: 700;
+  font-size: 1.5rem;
+  border: none;
+  width: 18%;
+  height: 8vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 8rem;
+}
+
+.gestao {
+  border: solid purple;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.gestao section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  width: 30%;
+  height: 70vh;
+}
+.gestao section h4 {
+  font-family: "Oswald";
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-align: left;
+  color: #0017E9;
+  text-decoration: none;
+}
+.gestao section h3 {
+  font-family: "Roboto";
+  font-weight: 800;
+  font-size: 2rem;
+  text-align: start;
+  color: #000000;
+  height: 17vh;
+  width: 80%;
+  text-decoration: none;
+}
+.gestao section p {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+}
+.gestao section button {
+  color: #0017E9;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 1rem;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  background-color: #ffffff;
+  height: 10vh;
+}
+.gestao img {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-around;
+  height: 95vh;
+  width: 40vw;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}/*# sourceMappingURL=style.css.map */
