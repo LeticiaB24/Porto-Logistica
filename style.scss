@@ -275,7 +275,7 @@ header {
       .galeria {
         //border: solid yellow;
         display: flex;
-        width: 80%;
+        width: 100%;
         flex-wrap: wrap;
     
       }
@@ -291,30 +291,32 @@ header {
       }
     
       h2 {
-        //border: solid orange;
+       // border: solid orange;
         margin-left: 2rem;
         margin-bottom: 3.5rem;
         color: #0017e9;
         font-family: "Oswald";
         font-weight: 500;
         font-size: 2rem;
+        
       }
       h3 {
         //border: solid aqua;
         margin-left: 2rem;
-        margin-bottom: 4rem;
+       // margin-bottom: 4rem;
         color: #000000;
         font-family: "Oswald";
         font-weight: 500;
         font-size: 1.5rem;
+        height: 20vh;
       }
     }
     
     .faleConosco {
-      //border: darkgreen;
-        width: 30vw;
+      border: darkgreen;
+        width: 40vw;
       h2 {
-       //border: magenta;
+       border: magenta;
         margin-top: 3.5rem;
         margin-bottom: 1.5rem;
         color: #0017e9;
@@ -323,7 +325,7 @@ header {
         font-size: 2rem;
       }
       h3 {
-        //border: black;
+        border: black;
         margin-bottom: 1rem;
         color: #000000;
         font-family: "Oswald";
@@ -356,6 +358,7 @@ header {
           font-family: "Oswald";
           font-weight: 500;
           font-size: 1.5rem;
+          margin-bottom: 10vh;
         }
       }
     }
